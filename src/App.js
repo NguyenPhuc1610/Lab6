@@ -109,15 +109,27 @@ function App() {
           <Form style={{ display: 'flex', flexDirection: 'column' }}>
             <Container>
               <Row>
-                <Form.Group className="mb-3 p-0" controlId="exampleForm.ControlInput1">
+                <Form.Group className="mb-3 p-0" controlId="studentName">
                   <Form.Label>Student Name</Form.Label>
-                  <Form.Control type="text" placeholder="Enter Student Name" name='name' value={student.name} onChange={handleChange} />
+                  <Form.Control
+                    type="text"
+                    placeholder="Enter Student Name"
+                    name='name'
+                    value={student.name}
+                    onChange={handleChange}
+                  />
                 </Form.Group>
               </Row>
               <Row>
-                <Form.Group className="mb-3 p-0" controlId="exampleForm.ControlTextarea1">
+                <Form.Group className="mb-3 p-0" controlId='studentCode'>
                   <Form.Label>Student Code</Form.Label>
-                  <Form.Control type="text" placeholder='Enter Student Code' name='code' value={student.code} onChange={handleChange} />
+                  <Form.Control
+                    type="text"
+                    placeholder='Enter Student Code'
+                    name='code'
+                    value={student.code}
+                    onChange={handleChange}
+                  />
                 </Form.Group>
               </Row>
               <Row>
@@ -128,6 +140,7 @@ function App() {
                   value='active'
                   checked={student.status}
                   onChange={handleChange}
+                  id='status'
                 />
               </Row>
               <Row className='justify-content-center'>
