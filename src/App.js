@@ -135,7 +135,7 @@ function App() {
               <Row>
                 <Form.Check
                   type='checkbox'
-                  label='still active'
+                  label='Still active'
                   name='status'
                   value='active'
                   checked={student.status}
@@ -154,6 +154,9 @@ function App() {
 
       </Row>
       <Row className='mt-5'>
+        <div className='mb-2' style={{ textAlign: 'center' }}>
+          <h2>Student List</h2>
+        </div>
         <Table hover size="">
           <thead>
             <tr>
@@ -168,7 +171,7 @@ function App() {
             {
               students.map((student) => {
                 return (
-                  <tr key={student.id}>
+                  <tr key={student.id} >
                     <td>
                       <Form.Check
                         type='checkbox'
