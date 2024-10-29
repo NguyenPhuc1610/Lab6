@@ -1,0 +1,72 @@
+/* Home.css */
+.container {
+    margin-top: 30px;
+    max-width: 900px;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 10px;
+    min-width: 100px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.table-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.table-container h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.add-form .form-check {
+    margin-top: 10px;
+}
+
+.add-form input {
+    border-radius: 4px;
+}
+
+.table {
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

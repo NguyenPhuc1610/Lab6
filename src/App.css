@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+/* Modal Header */
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom: 1px solid #007bff;
+  border-radius: 5px 5px 0 0;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+}
+
+/* Form Labels */
+.form-label {
+  color: #333;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Form Controls */
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Checkbox */
+.form-check-label {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+}
+
+#isActiveUpdate {
+  accent-color: #007bff;
+  /* Changes checkbox color */
+}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e9ecef;
+  border-radius: 0 0 5px 5px;
+}
+
+.modal-footer .btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.modal-footer .btn-secondary {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+}

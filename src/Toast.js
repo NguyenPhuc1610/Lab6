@@ -4,7 +4,7 @@ import { Toast } from 'react-bootstrap';
 function ToastComp({ showMessage, onClose, message, background }) {
     return (
         <Toast bg={background} show={showMessage} onClose={onClose} animation={true} style={{
-            position: 'absolute', top: '10%', left: '50%',
+            position: 'absolute', top: '5%', left: '100%',
             transform: 'translate(-50%, -50%)'
         }} autohide={true}>
             <Toast.Header>

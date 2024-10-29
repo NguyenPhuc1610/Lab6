@@ -11,7 +11,7 @@ import {
 import { Link, redirect } from 'react-router-dom';
 import ToastComp from './Toast';
 import ModalComp from './ModalComp';
-
+import '../src/style/Home.css';
 function Home() {
 
     const [students, setStudents] = useState([]);
@@ -102,18 +102,7 @@ function Home() {
         } catch (error) {
             console.log(error);
         }
-        // let arr = [...students];
-        // arr = arr.filter((item) => {
-        //   return item.id !== id;
-        // })
-        // setStudents(arr);
-        // setStudents(prev => {
-        //   prev = prev.filter((item) => {
-        //     return item.id !== id
-        //   });
-        //   return prev;
-        // });
-        // setCheckedStudents(prev => (prev.filter((item) => (item !== id))))
+
     };
 
     const handleShowModalUpdate = (student) => {

@@ -24,7 +24,6 @@ function StudentDetails() {
                 console.log(error);
             }
         };
-
         getStudentDetails();
     }, []);
 

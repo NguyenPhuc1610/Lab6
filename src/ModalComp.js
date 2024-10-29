@@ -2,19 +2,14 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
-
+import "../src/style/Modal.css"
 function ModalComp({ show, handleClose, student, fetchData, showToast }) {
-    // const [show, setShow] = useState(false);
-
-    // const handleClose = () => setShow(false);
-    // const handleShow = () => setShow(true);
-    // console.log('student: ', student);
+   
     const [name, setName] = useState(student?.name);
     const [code, setCode] = useState(student?.studentCode);
     const [isActive, setIsActive] = useState(student?.isActive);
 
-    // console.log(name, code, isActive);
-
+   
     const handleNameChange = (e) => {
         setName(e.target.value);
     };
